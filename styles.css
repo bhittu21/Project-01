@@ -7,6 +7,8 @@ body {
     background: #0a0a0a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
+    /* width: 80vw; */
+    /* text-align: center; */
 }
 
 /* header section */
@@ -30,4 +32,64 @@ body {
 
 .nav-menu li {
     list-style: none;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.left-hero {
+    flex: 1;
+}
+
+.left-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right-hero {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.right-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.right-hero p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+/* Contact Us Section */
+.contact {
+    background-color: #1a1a1a;
+    padding:20px;
+    text-align: center;
 }
